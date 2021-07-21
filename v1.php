@@ -39,7 +39,7 @@ $monthsReverse[$i3++]=$months[$i2];
 echo $monthsReverse[$i3-1];
 }
 
-function bubbleSort(string $string)
+function bubbleSort(string $string):void
 {$swapped=false;
     $aux='';
     $n=count($string);
